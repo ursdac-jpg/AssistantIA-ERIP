@@ -33,5 +33,12 @@
     "titre": "Découvrir les assistants IA",
     "description": "Comprendre les principaux assistants IA et apprendre à les utiliser.",
     "type": "ia"
+},
+{
+  "id": "erip",
+  "icone": "bi-calendar2-check",
+  "titre": "Ateliers ERIP",
+  "description": "Découvrir tous les ateliers et s'inscrire en ligne.",
+  "url": "https://www.linscription.com/pro/catalogue-missionlocale-r.php?P1=11241&P2=411"
 }
 ]
