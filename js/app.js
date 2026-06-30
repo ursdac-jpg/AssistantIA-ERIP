@@ -132,19 +132,45 @@ function creerCarte(atelier) {
 
             <p class="text-muted flex-grow-1">
 
-                ${atelier.description}
+    ${atelier.description}
 
-            </p>
+</p>
 
+${
+    atelier.url
+    ? `
+    <div class="small text-primary fw-semibold mb-3">
+        <i class="bi bi-box-arrow-up-right"></i>
+        Inscription en ligne
+    </div>
+    `
+    : ""
+}
             <button
-                class="btn btn-danger mt-3"
-                onclick="ouvrirAtelier('${atelier.id}')">
+    class="btn btn-danger mt-3"
+    onclick="ouvrirAtelier('${atelier.id}')">
 
-                <i class="bi bi-play-fill"></i>
+    <i class="bi ${
+        atelier.url
+            ? "bi-box-arrow-up-right"
+            : atelier.type === "aide"
+            ? "bi-question-circle"
+            : atelier.type === "ia"
+            ? "bi-cpu"
+            : "bi-play-fill"
+    }"></i>
 
-                Lancer l'atelier
+    ${
+        atelier.url
+            ? "Consulter"
+            : atelier.type === "aide"
+            ? "Ouvrir"
+            : atelier.type === "ia"
+            ? "Découvrir"
+            : "Lancer l'atelier"
+    }
 
-            </button>
+</button>
 
         </div>
 
@@ -364,6 +390,7 @@ function ouvrirAtelier(id) {
 
     alert(JSON.stringify(atelier));
 
+    // Lien externe (Ateliers ERIP)
     if (atelier.url) {
 
         window.open(atelier.url, "_blank", "noopener,noreferrer");
@@ -372,15 +399,21 @@ function ouvrirAtelier(id) {
 
     }
 
-}
+    if (atelier.type === "aide") {
 
-if (atelier.type === "ia") {
+        afficherAide();
 
-    afficherAssistantsIA();
+        return;
 
-    return;
+    }
 
-}
+    if (atelier.type === "ia") {
+
+        afficherAssistantsIA();
+
+        return;
+
+    }
 
     app.className = "";
 
