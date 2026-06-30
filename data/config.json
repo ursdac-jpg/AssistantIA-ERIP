@@ -1,0 +1,53 @@
+{
+    "nom": "Assistant IA",
+    "organisme": "Mission Locale du Bergeracois",
+    "logo": "assets/logo-erip.png",
+    "version": "1.0.0",
+
+    "assistants": [
+
+        {
+            "nom": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "description": "Très polyvalent"
+        },
+
+        {
+            "nom": "Gemini",
+            "url": "https://gemini.google.com",
+            "description": "Intégration Google"
+        },
+
+        {
+            "nom": "Copilot",
+            "url": "https://copilot.microsoft.com",
+            "description": "Microsoft"
+        },
+
+        {
+            "nom": "Le Chat",
+            "url": "https://chat.mistral.ai",
+            "description": "IA française"
+        },
+
+        {
+            "nom": "Claude",
+            "url": "https://claude.ai",
+            "description": "Excellent rédacteur"
+        },
+
+        {
+            "nom": "Perplexity",
+            "url": "https://www.perplexity.ai",
+            "description": "Recherche avec sources"
+        },
+
+        {
+            "nom": "DeepSeek",
+            "url": "https://chat.deepseek.com",
+            "description": "Polyvalent"
+        }
+
+    ]
+
+}
