@@ -388,8 +388,6 @@ function ouvrirAtelier(id) {
 
     const atelier = ateliers.find(a => a.id === id);
 
-    alert(JSON.stringify(atelier));
-
     // Lien externe (Ateliers ERIP)
     if (atelier.url) {
 
