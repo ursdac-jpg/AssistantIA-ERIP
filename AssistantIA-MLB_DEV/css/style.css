@@ -1,0 +1,247 @@
+body{
+    background:#f5f7fb;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.logo{
+
+    width:420px;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.card-body{
+
+    padding:2rem;
+
+}
+
+.display-2{
+
+    color:#C61C2C;
+
+}
+
+.btn-danger{
+
+    background:#C61C2C;
+
+    border:none;
+
+}
+
+.btn-danger:hover{
+
+    background:#A61825;
+
+}
+
+.btn-dark{
+
+    background:#202124;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+    padding:12px;
+
+    font-weight:600;
+
+}
+
+header{
+
+    margin-bottom:35px;
+
+}
+
+header h1{
+
+    margin-top:10px;
+
+    font-size:3rem;
+
+}
+
+header p{
+
+    color:#666;
+
+}
+
+.alert{
+
+    border-radius:12px;
+
+}
+
+footer{
+
+    margin-top:70px;
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:.9rem;
+
+}
+.card{
+
+    overflow:hidden;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    transition:.25s;
+
+}
+
+.rounded-circle{
+
+    transition:.25s;
+
+}
+
+.card:hover .rounded-circle{
+
+    transform:scale(1.08);
+
+}
+
+.card{
+
+    border-radius:20px;
+
+}
+
+.card-body{
+
+    padding:2rem;
+
+}
+
+.lead{
+
+    color:#666;
+
+}
+
+h2{
+
+    color:#b00020;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+}
+
+.btn-lg{
+
+    padding:15px;
+
+}
+
+#listeAteliers{
+
+    margin-top:20px;
+
+}
+
+.card{
+
+    border-radius:20px;
+
+}
+
+.card-body{
+
+    padding:2rem;
+
+}
+
+.lead{
+
+    color:#666;
+
+}
+
+h2{
+
+    color:#B00020;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+}
+
+.btn-lg{
+
+    padding:15px;
+
+}
+
+#listeAteliers{
+
+    margin-top:20px;
+
+}
+
+.navbar{
+
+padding:20px;
+
+}
+
+.logo{
+
+width:220px;
+
+height:auto;
+
+}
+
+.navbar h2{
+
+font-weight:700;
+
+}
+
+.navbar small{
+
+font-size:.9rem;
+
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cv",
+    "icone": "bi-file-earmark-person",
+    "titre": "Créer un CV",
+    "description": "Créer ou améliorer un CV professionnel.",
+    "prompt": "prompts/cv.md"
+  },
+  {
+    "id": "lettre",
+    "icone": "bi-envelope-paper",
+    "titre": "Lettre de motivation",
+    "description": "Créer une lettre personnalisée.",
+    "prompt": "prompts/lettre.md"
+  },
+  {
+    "id": "entretien",
+    "icone": "bi-person-workspace",
+    "titre": "Préparer un entretien",
+    "description": "Simulation complète d'entretien.",
+    "prompt": "prompts/entretien.md"
+  },
+  {
+    "id": "aide",
+    "icone": "bi-question-circle-fill",
+    "titre": "Comment utiliser ?",
+    "description": "Découvrez le fonctionnement de l'assistant IA en moins de deux minutes.",
+    "type": "aide"
+  },
+  {
+    "id": "ia",
+    "icone": "bi-cpu",
+    "titre": "Découvrir les assistants IA",
+    "description": "Comprendre les principaux assistants IA et apprendre à les utiliser.",
+    "type": "ia"
+}
+]

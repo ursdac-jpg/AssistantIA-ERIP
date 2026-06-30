@@ -1,0 +1,6 @@
+Bienvenue dans l'atelier IA.
+
+Ici sera placé votre prompt complet.
+
+Lorsque tu cliqueras sur "Copier le prompt",
+tout ce texte sera automatiquement copié.

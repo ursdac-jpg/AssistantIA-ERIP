@@ -1,0 +1,51 @@
+[
+    {
+        "id": "chatgpt",
+        "nom": "ChatGPT",
+        "editeur": "OpenAI",
+        "url": "https://chatgpt.com",
+        "description": "Très polyvalent pour la rédaction."
+    },
+    {
+        "id": "gemini",
+        "nom": "Gemini",
+        "editeur": "Google",
+        "url": "https://gemini.google.com",
+        "description": "Bonne intégration avec Google."
+    },
+    {
+        "id": "claude",
+        "nom": "Claude",
+        "editeur": "Anthropic",
+        "url": "https://claude.ai",
+        "description": "Excellent pour les textes longs."
+    },
+    {
+        "id": "lechat",
+        "nom": "Le Chat",
+        "editeur": "Mistral AI",
+        "url": "https://chat.mistral.ai",
+        "description": "Assistant IA français."
+    },
+    {
+        "id": "copilot",
+        "nom": "Copilot",
+        "editeur": "Microsoft",
+        "url": "https://copilot.microsoft.com",
+        "description": "Intégré à Microsoft."
+    },
+    {
+        "id": "perplexity",
+        "nom": "Perplexity",
+        "editeur": "Perplexity AI",
+        "url": "https://www.perplexity.ai",
+        "description": "Recherche avec sources."
+    },
+    {
+        "id": "deepseek",
+        "nom": "DeepSeek",
+        "editeur": "DeepSeek",
+        "url": "https://chat.deepseek.com",
+        "description": "Polyvalent."
+    }
+]
