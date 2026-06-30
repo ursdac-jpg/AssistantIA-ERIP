@@ -361,11 +361,16 @@ Retour
 function ouvrirAtelier(id) {
 
     const atelier = ateliers.find(a => a.id === id);
-   if (atelier.type === "aide") {
 
-    afficherAide();
+    alert(JSON.stringify(atelier));
 
-    return;
+    if (atelier.url) {
+
+        window.open(atelier.url, "_blank", "noopener,noreferrer");
+
+        return;
+
+    }
 
 }
 
