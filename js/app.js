@@ -429,25 +429,65 @@ function ouvrirAtelier(id) {
 
         </h2>
 
-        <div class="alert alert-light">
+       <div class="alert alert-light">
 
-            <h5>Avant de commencer</h5>
+    <h5>
 
-            <ul class="mb-0">
+        📋 Pour personnaliser votre candidature
 
-                <li>📄 Votre CV</li>
+    </h5>
 
-                <li>🌐 Une offre d'emploi ou son lien Internet</li>
+    <ul class="mb-3">
 
-                <li>🏢 À défaut, le nom de l'entreprise</li>
+        <li>
 
-            </ul>
+            📄 <strong>Votre CV</strong>
 
-        </div>
+            <span class="text-muted">
+
+                (si vous en avez déjà un)
+
+            </span>
+
+        </li>
+
+        <li>
+
+            🌐 <strong>L'offre d'emploi</strong>
+
+            <span class="text-muted">
+
+                (ou son lien Internet)
+
+            </span>
+
+        </li>
+
+        <li>
+
+            🏢 <strong>À défaut, le nom de l'entreprise</strong>
+
+        </li>
+
+    </ul>
+
+    <div class="alert alert-info mb-0">
+
+        💡 <strong>Vous n'avez pas tous ces éléments ?</strong>
+
+        <br><br>
+
+        Ce n'est pas un problème.
+
+        L'assistant pourra tout de même vous accompagner et vous proposer des solutions adaptées à votre situation.
+
+    </div>
+
+</div>
 
         <div class="alert alert-secondary">
 
-            ⏱ Temps estimé : 20 à 30 minutes
+            ⏱ Temps estimé : 30 à 40 minutes
 
             <div class="alert alert-info">
 
@@ -565,7 +605,7 @@ function afficherAide() {
 
                 <strong>Lancer l'atelier</strong>.
 
-                Le prompt sera automatiquement copié et ChatGPT s'ouvrira.
+                Le prompt sera automatiquement copié et puis choisissez l'assistant IA que vous souhaitez utiliser.
 
             </p>
 
@@ -700,6 +740,33 @@ function choisirAssistant(prompt){
                 🤖 Choisissez votre assistant IA
 
             </h2>
+        <div class="alert alert-warning">
+
+<h5>
+
+🔒 Confidentialité
+
+</h5>
+
+<p class="mb-2">
+
+Si vous utilisez un ordinateur partagé
+(Mission Locale, ERIP, France Travail, médiathèque...),
+
+nous vous recommandons d'utiliser une
+<strong>fenêtre de navigation privée</strong>.
+
+</p>
+
+<button
+class="btn btn-outline-dark btn-sm"
+onclick="afficherConfidentialite('${prompt}')">
+
+📖 Voir comment faire
+
+</button>
+
+</div>
 
     `;
 
@@ -789,6 +856,126 @@ Découvrir les assistants IA
     `;
 
     app.innerHTML = html;
+
+}
+
+function afficherConfidentialite(prompt) {
+
+    app.innerHTML = `
+
+<div class="card shadow">
+
+<div class="card-body p-5">
+
+<h2 class="mb-4">
+
+🔒 Confidentialité
+
+</h2>
+
+<div class="alert alert-info">
+
+<h5>
+
+Pourquoi utiliser la navigation privée ?
+
+</h5>
+
+<p>
+
+Si vous utilisez un ordinateur partagé,
+cela évite que votre compte ou vos conversations
+restent accessibles aux autres utilisateurs.
+
+</p>
+
+</div>
+
+<h4 class="mt-4">
+
+Microsoft Edge / Google Chrome
+
+</h4>
+
+<div class="alert alert-light">
+
+<h3 class="text-center">
+
+CTRL + MAJ + N
+
+</h3>
+
+</div>
+
+<h4>
+
+Mozilla Firefox
+
+</h4>
+
+<div class="alert alert-light">
+
+<h3 class="text-center">
+
+CTRL + MAJ + P
+
+</h3>
+
+</div>
+
+<div class="alert alert-success mt-4">
+
+<h5>
+
+À la fin de votre atelier
+
+</h5>
+
+<ul class="mb-0">
+
+<li>
+
+Déconnectez-vous de votre assistant IA
+si vous vous êtes connecté.
+
+</li>
+
+<li>
+
+Fermez la fenêtre de navigation privée.
+
+</li>
+
+<li>
+
+Ne laissez jamais un ordinateur partagé
+connecté à votre compte.
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="text-center mt-5">
+
+<button
+class="btn btn-danger"
+onclick="choisirAssistant('${prompt}')">
+
+<i class="bi bi-arrow-left"></i>
+
+Retour au choix de l'assistant IA
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+`;
 
 }
 
