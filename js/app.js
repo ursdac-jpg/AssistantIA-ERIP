@@ -625,25 +625,61 @@ function afficherAide() {
 
             <div class="text-center">
 
-                <h3>
+    <div class="mb-4">
 
-                    CTRL + V
+        <p class="mb-2">
 
-                </h3>
+            <strong>1. Collez le prompt</strong>
 
-                <p>
+        </p>
 
-                    puis
+        <h3>
 
-                </p>
+            CTRL + V
 
-                <h3>
+        </h3>
 
-                    Entrée
+    </div>
 
-                </h3>
+    <div class="mb-4">
 
-            </div>
+        <p class="mb-2">
+
+            <strong>2. Saisissez</strong>
+
+        </p>
+
+        <h2 class="text-primary fw-bold">
+
+            start
+
+        </h2>
+
+        <small class="text-muted">
+
+            (en minuscules)
+
+        </small>
+
+    </div>
+
+    <div>
+
+        <p class="mb-2">
+
+            <strong>3. Appuyez sur</strong>
+
+        </p>
+
+        <h3>
+
+            Entrée
+
+        </h3>
+
+    </div>
+
+</div>
 
         </div>
 
@@ -1023,23 +1059,74 @@ async function lancerAvecAssistant(prompt) {
 
                 </p>
 
-                <h3>
+                <div class="text-center my-4">
 
-                    CTRL + V
+    <div class="mb-4">
 
-                </h3>
+        <p class="mb-2">
 
-                <p>
+            <strong>1. Collez le prompt</strong>
 
-                    puis
+        </p>
 
-                </p>
+        <h3>
 
-                <h3>
+            CTRL + V
 
-                    Entrée
+        </h3>
 
-                </h3>
+    </div>
+
+    <div class="mb-4">
+
+        <p class="mb-2">
+
+            <strong>2. Saisissez</strong>
+
+        </p>
+
+        <h2 class="text-primary fw-bold">
+
+            start
+
+        </h2>
+
+        <small class="text-muted">
+
+            (en minuscules)
+
+        </small>
+
+    </div>
+
+    <div>
+
+        <p class="mb-2">
+
+            <strong>3. Appuyez sur</strong>
+
+        </p>
+
+        <h3>
+
+            Entrée
+
+        </h3>
+
+    </div>
+
+</div>
+
+<div class="alert alert-info mt-4">
+
+    💡 <strong>Conseil :</strong>
+
+    Répondez ensuite simplement aux questions de l'assistant IA.
+    Si vous ne connaissez pas une réponse, vous pouvez écrire
+    <strong>« je ne sais pas »</strong>.
+    L'assistant vous proposera des suggestions adaptées.
+
+</div>
 
                 <br>
 
